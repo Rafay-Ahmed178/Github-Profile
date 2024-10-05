@@ -1,0 +1,28 @@
+#form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+ #head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+} 
+#message{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#public{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}

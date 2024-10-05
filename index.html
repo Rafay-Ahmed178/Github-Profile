@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 onclick="console.log(event.target.style.color='red');" id="head">Github profile</h1>
+
+
+    <form id="form">
+      <input type="text" placeholder="enter your username" />
+      <button>get data</button>
+    </form>
+
+
+    <p id="message"></p>
+
+    <div id="main-div">
+      <img src="https://avatars.githubusercontent.com/u/154263565?v=4" alt="">
+
+      <p></p>
+
+      <p id="public">public repos: 34</p>
+
+      <a href="https://github.com/Rafay-Ahmed178" class="link"> profile link </a>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
